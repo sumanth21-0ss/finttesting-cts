@@ -1,0 +1,37 @@
+connections:
+   connection-test:
+      postgres:
+        host: sr9b6l6g80fqb5.cnolo9owvhht.eu-west-1.rds.amazonaws.com
+        port: "5432"
+        database: postgres
+      ifrstestredshift:
+        host: ifrstestredshiftclusternew.c7j7caayqsxn.eu-west-1.redshift.amazonaws.com
+        port: "5439"
+        database: ifrstestredshift
+   connection-dapload:
+      postgres:
+        host: sr9b6l6g80fqb5.cnolo9owvhht.eu-west-1.rds.amazonaws.com
+        port: "5432"
+        database: dapload
+      ifrstestredshift:
+        host: ifrstestredshiftclusternew.c7j7caayqsxn.eu-west-1.redshift.amazonaws.com
+        port: "5439"
+        database: dapload_rs
+   connection-dev:
+     postgres:
+       host: ifrs-dev-aurora-cluster-new.cluster-cup1xfvpchba.eu-west-1.rds.amazonaws.com
+       port: "5432"
+       database : postgres
+     ifrstestredshift:
+       host: ifrsdevredshiftclusternew.cpryvkt3xe5f.eu-west-1.redshift.amazonaws.com
+       port: "5439"
+       database: dapload_rs
+   connection-uat:
+     postgres:
+       host: ifrs-uat-aurora-cluster.cluster-ro-cavoflu5pteb.eu-west-1.rds.amazonaws.com
+       port: "5432"
+       database: postgres
+     ifrstestredshift:
+       host: ifrsuatredshiftclusternew.cgadeoceoqim.eu-west-1.redshift.amazonaws.com
+       port: "5439"
+       database: ifrsuatredshift
